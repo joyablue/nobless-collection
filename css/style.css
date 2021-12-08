@@ -45,7 +45,7 @@ body { font-family: 'Noto Sans KR', sans-serif; color: #333; transition: 0.3s al
 /* main */
 .main {position: relative; display: block; background: url('../images/main-bg.jpg') no-repeat center; }
 .sw-visual {width: 133.8rem; overflow: hidden;}
-.sw-control {position: absolute; display: block; width: 7rem; height: 3.5rem; z-index: 99;}
+.sw-control {position: absolute; display: block; width: 7rem; height: 3.5rem; z-index: 99; left: 306px}
 .sw-control li { display: block; float: left; width: 3.5rem; height: 3.5rem;}
 .sw-prev-btn {background: url('../images/arrow-prev.png') no-repeat center;}
 .sw-next-btn {background: url('../images/arrow-next.png') no-repeat center;}
@@ -69,3 +69,8 @@ body { font-family: 'Noto Sans KR', sans-serif; color: #333; transition: 0.3s al
 .artist-wrap .sw-latest-pg { position:relative; text-align: left; margin-top: 10rem; }
 .artist-wrap .sw-latest-pg .swiper-pagination-bullet { opacity: 1.0 !important; width: 9.5rem; height: 0.4rem; border-radius: 0; background-color: #bcbccc; transition: background-color 0.5s; }
 .artist-wrap .sw-latest-pg .swiper-pagination-bullet-active { background-color: #ae00ff; }
+
+/*contact*/
+.contact {background: url('../images/contact-bg.jpg') no-repeat center;}
+.contact .container {display: block; text-align: center;}
+.contact-wrap {position: relative; margin-top: 65px;}
